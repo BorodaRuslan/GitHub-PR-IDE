@@ -8,6 +8,8 @@ public class Main {
         int b = 2;
         int c = add(a, b);
         System.out.println(c);
+        int d = multiply(a, b);
+        System.out.println(d);
     }
 
     private static int add(int a, int b) {
@@ -17,5 +19,8 @@ public class Main {
     private static int multiply(int a, int b) {
         return a * b;
     }
+
+
+
 
 }
